@@ -1,0 +1,38 @@
+{
+  "name": "nft-market-23march2024-at425",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "next build && next export && npx thirdweb@latest upload out"
+  },
+  "dependencies": {
+    "@thirdweb-dev/chains": "^0.1.54",
+    "@thirdweb-dev/react": "^4.4.23",
+    "@thirdweb-dev/sdk": "^4.0.49",
+    "ethers": "^5.7.2",
+    "next": "^13.5.7",
+    "nextjs-progressbar": "^0.0.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.0",
+    "react-hot-toast": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.11",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8.29.0",
+    "eslint-config-next": "^13",
+    "typescript": "^5.0.4"
+  },
+  "resolutions": {
+    "@eth-optimism/contracts-bedrock": "0.16.2",
+    "abitype": "^0.8.7",
+    "@eth-optimism/sdk": "^3.1.8"
+  }
+}
